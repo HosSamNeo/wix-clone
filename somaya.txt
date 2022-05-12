@@ -1,0 +1,74 @@
+<HTml>
+<HEad>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</HEad>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/light.png" class="w-75" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">news</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+        
+    
+      <!-- </nav> -->
+ <!-- <home> -->
+  <section class="home vh-100" id="home">
+    <div class="bg-color h-100">
+      <div class="setting  position-fixed p-xxl-4 ">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+
+      <div class="sh-img caption position-relative text-center d-flex flex-column justify-content-center align-items-center text-white h-100">
+      <img src="img/1 (1).jpg">
+
+        <h1 class="">ALBERT<span> WALKERS</span></h1>
+        <h4 class="my-4">I'M </h4>
+       
+      <div>         
+        <i class="fa-solid fa-angles-down fa-bounce fa-2x text-white"></i>          </div>
+    </div>
+  </div>
+</section>
+  <!-- </home> -->
